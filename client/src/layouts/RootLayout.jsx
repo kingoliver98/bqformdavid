@@ -23,7 +23,7 @@ const RootLayout = () => {
       <Navbar1 />
       <Container className="d-lg-flex gap-4 mt-4 mt-md-5 py-5">
         <Topics />
-        <div className="d-flex d-md-none my-4 overflow-scroll">
+        <div className="d-flex d-md-none my-4 overflow-scroll scrollbody">
           {data?.topics?.map((topic) => (
             <Badge
               bg={topic.name === selectedTopic ? "success" : "secondary"}
