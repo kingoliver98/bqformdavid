@@ -30,14 +30,6 @@ const Navbar1 = () => {
           >
             Topics
           </NavLink>
-          <NavLink
-            to="/spaces"
-            className={({ isActive }) =>
-              isActive ? "activeLink" : "no_activeLink text-white"
-            }
-          >
-            Spaces
-          </NavLink>
         </div>
         {user ? (
           <div className="d-none d-md-flex gap-4">

@@ -49,15 +49,6 @@ export default function Sidebar() {
             >
               Topics
             </NavLink>
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                isActive ? "activeLink fs-4" : "no_activeLink text-white fs-4"
-              }
-            >
-              Spaces
-            </NavLink>
-
             {!user && (
               <div className="d-flex flex-column gap-2">
                 <hr className="text-white" />
